@@ -1,0 +1,67 @@
+﻿
+@model AzureWebUIapp.Models.UpdateUserModel
+
+@{
+    ViewBag.Title = "Update User";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm("UpdateUser", "Users"))
+{
+    if (Model != null && !Model.status)
+    {
+        <span><b>The action threw and error: @Model.resultantMessage</b></span>
+    }
+    <h1>Update user</h1>
+    <hr />
+    <div class="row" style="padding-top:20px">
+        <div class="col-md-12 form-group">
+            <div class="col-sm-3">
+                @Html.LabelFor(a => a.UserEmailAddress)
+            </div>
+            <div class="col-sm-5">
+                @Html.TextBoxFor(a => a.UserEmailAddress, new { Class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-12 form-group">
+            <div class="col-sm-3">
+                @Html.LabelFor(a => a.Jobtitle)
+            </div>
+            <div class="col-sm-5">
+                @Html.TextBoxFor(a => a.Jobtitle, new { Class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-12 form-group">
+            <div class="col-sm-3">
+                @Html.LabelFor(a => a.department)
+            </div>
+            <div class="col-sm-5">
+                @Html.TextBoxFor(a => a.department, new { Class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-12 form-group">
+            <div class="col-sm-3">
+                @Html.LabelFor(a => a.City)
+            </div>
+            <div class="col-sm-5">
+                @Html.TextBoxFor(a => a.City, new { Class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-12 form-group">
+            <div class="col-sm-3">
+                @Html.LabelFor(a => a.phone)
+            </div>
+            <div class="col-sm-5">
+                @Html.TextBoxFor(a => a.phone, new { Class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-12 form-group">
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-5">
+                <input type="submit" name="UpdateUser" value="Update user" class="btn btn-primary" style="align-content:center" />
+            </div>
+        </div>
+    </div>
+}
+
+

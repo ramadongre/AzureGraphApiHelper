@@ -1,0 +1,31 @@
+﻿@using AzureWebUIapp.Models
+
+@model Tuple<string, List<ResultsItem>>
+
+@{
+    ViewBag.Title = "Listing user claims";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+@if (Model != null)
+{
+    using (Html.BeginForm("ListUserClaims", "Users"))
+    {
+<div class="row">
+    <div class="=" col-md-12">
+        Listing user claims for user<span>&nbsp;<b>@Html.DisplayFor(a => a.Item1)</b></span>
+    </div>
+    <hr />
+    @foreach (ResultsItem item in Model.Item2)
+    {
+        <div class="=" col-md-12">
+            <span style="font-weight:bold">@item.Id</span>&nbsp;:&nbsp;&nbsp;<span>@item.Display</span>
+        </div>
+    }
+</div>
+    }
+}
+
+
+
+

@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<h1>Perform Azure AD actions using Microsoft Graph/Azure AD Graph API</h1>
+<hr />
+<div class="row" style="padding-top:20px">
+    <div class="col-md-12" style="padding-top:5px;">
+        @Html.ActionLink("List claims for logged in user", "ListUserClaims", "Users")
+    </div>
+    <div class="col-md-12" style="padding-top:5px;">
+        @Html.ActionLink("List Tentant Guest Users", "GuestUsers", "Users")
+    </div>
+    <div class="col-md-12" style="padding-top:5px;">
+        @Html.ActionLink("List Tentant Applications", "ListTenantApps", "Users")
+    </div>
+    <div class="col-md-12" style="padding-top:5px;">
+        @Html.ActionLink("Get details for a user", "GetUser", "Users")
+    </div>
+    <div class="col-md-12" style="padding-top:5px;">
+        @Html.ActionLink("Add Guest User", "AddGuestUser", "Users")
+    </div>
+    <div class="col-md-12" style="padding-top:5px;">
+        @Html.ActionLink("Update User", "UpdateUser", "Users")
+    </div>
+    <div class="col-md-12" style="padding-top:5px;">
+        @Html.ActionLink("Associate user with a group", "AssociateUserWithGroup", "Users")
+    </div>
+    <div class="col-md-12" style="padding-top:5px;">
+        @Html.ActionLink("Remove user from a group", "DeAssociateUserWithGroup", "Users")
+    </div>
+    <div class="col-md-12" style="padding-top:5px;">
+        @Html.ActionLink("Add application role to a user", "AddAppRoleToUser", "Users")
+    </div>
+    <div class="col-md-12" style="padding-top:5px;">
+        @Html.ActionLink("Remove an application role from a user", "RemoveAppRoleFromUser", "Users")
+    </div>
+    <div class="col-md-12" style="padding-top:5px;">
+        @Html.ActionLink("Assign extension attribute to a user", "AssignExtAttribToUser", "Users")
+    </div>
+</div>

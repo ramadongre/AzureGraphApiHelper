@@ -1,0 +1,159 @@
+﻿@model AzureWebUIapp.Models.AddAppRoleToUserModel
+
+@{
+    ViewBag.Title = "Add Application Role To user";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+@using (Html.BeginForm("AddAppRoleToUser", "Users"))
+{
+    if (Model != null && !Model.isOk)
+    {
+        <span><b>The action threw an error: @Model.message</b></span>
+        <hr />
+    }
+    <h1>Add application role to user</h1>
+    <span>Selecting application-name dropdown forces application role names to be fille up</span>
+    <hr />
+    <div class="row" style="padding-top:20px">
+        <div class="col-md-12 form-group">
+            <div class="col-sm-3">
+                @Html.LabelFor(a => a.UserEmailAddress)
+            </div>
+            <div class="col-sm-5">
+                @Html.TextBoxFor(a => a.UserEmailAddress, new { Class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-12 form-group">
+            <div class="col-sm-3">
+                @Html.LabelFor(a => a.AppName)
+            </div>
+            <div class="col-sm-5">
+                @*@Html.TextBoxFor(a => a.AppName, new { Class = "form-control" })*@
+                @Html.DropDownListFor(a => a.AppName, Model.TenantApplications, new { Class = "form-control", onchange = "return LoadApplicationRoles();" })
+            </div>
+        </div>
+        <div class="col-md-12 form-group">
+            <div class="col-sm-3">
+                @Html.LabelFor(a => a.AppRoleName)
+            </div>
+            <div class="col-sm-5">
+                @*@Html.TextBoxFor(a => a.AppRoleName, new { Class = "form-control" })*@
+                @Html.DropDownListFor(a => a.AppRoleName, Model.ApplicationRoles, new { Class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-12 form-group">
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-5">
+                <input type="submit" name="addapprole" value="Add Application Role To User" class="btn btn-primary" style="align-content:center" />
+            </div>
+        </div>
+    </div>
+}
+<script type="text/javascript">
+
+    //$(document).ready(function () {
+
+    //    alert("a");
+
+    //$("#AppName").Change(function () {
+
+    //        var app = $("#AppName").val(); alert(app);
+
+    //        if (app == null || app == '' || app == '-1')
+    //            return false;
+
+    //        $("#AppRoleName").html('');
+    //        $("#AppRoleName").attr("disabled", "disabled");
+
+    //        //load organizations
+    //        $.ajax({
+    //            url: '~/users/GetAppRoles?appname=' + app,
+    //            type: 'GET',
+    //            datatype: "html",
+    //            cache: false,
+    //            success: function (jsondata) {
+
+    //                if (jsondata != null) {
+
+    //                    for (var i = 0; i < jsondata.length; i++) {
+    //                        var newOption = "<option value='" + jsondata[i].Id + "'>" + jsondata[i].Display
+    //                            + "</option>";
+    //                        $("#AppRoleName").append(newOption);
+    //                    }
+    //                }
+
+    //                $("#AppRoleName").removeAttr("disabled");
+    //            },
+    //            error: function () {
+    //                alert('An error occured');
+    //                $("#AppRoleName").removeAttr("disabled");
+    //            }
+    //        });
+    //    });
+
+    //  });
+
+    function RemoveBSAndTildaFromUrl(inputURL)//url be like Search/RunSearch etc
+    {
+        var formattedURL = inputURL;
+
+        while (formattedURL != null && formattedURL.length >= 1 && (formattedURL.substring(0, 1) == '/' || formattedURL.substring(0, 1) == '~' || formattedURL.substring(0, 1) == '.')) {
+            formattedURL = formattedURL.replace(formattedURL.substring(0, 1), '');//replace first occurence
+        }
+
+        return formattedURL;
+    }
+
+    function getBHISAbsoluteUrl(inputPartialUrl) {
+
+        inputPartialUrl = RemoveBSAndTildaFromUrl(inputPartialUrl);
+
+        var baseUrl = window.location.protocol + "//" + window.location.host + "/";
+
+        return baseUrl + inputPartialUrl;
+
+    }
+
+    function LoadApplicationRoles() {
+        var app = $("#AppName").val(); //alert(app);
+
+        if (app == null || app == '' || app == '-1')
+            return false;
+
+        $("#AppRoleName").html('');
+        $("#AppRoleName").attr("disabled", "disabled");
+
+        // alert(getBHISAbsoluteUrl('~/users/GetAppRoles?appname=' + app));
+
+        //load organizations
+        $.ajax({
+            url: getBHISAbsoluteUrl('~/users/GetApplicationRoles?appname=' + app),
+            type: 'GET',
+            datatype: "html",
+            cache: false,
+            success: function (jsondata) {
+
+                if (jsondata != null) {
+
+                    for (var i = 0; i < jsondata.length; i++) {
+                        var newOption = "<option value='" + jsondata[i].Id + "'>" + jsondata[i].Display
+                            + "</option>";
+                        $("#AppRoleName").append(newOption);
+                    }
+                }
+
+                $("#AppRoleName").removeAttr("disabled");
+            },
+            error: function (e) {
+                alert('An error occured:' + e);
+                $("#AppRoleName").removeAttr("disabled");
+            }
+        });
+
+        return false;
+    }
+
+</script>
+

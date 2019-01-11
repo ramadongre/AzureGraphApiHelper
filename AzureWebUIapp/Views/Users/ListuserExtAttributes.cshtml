@@ -1,0 +1,42 @@
+﻿@using AzureWebUIapp.Models
+
+@model Tuple<bool, string, string, List<ResultsItem>>
+
+@{
+    ViewBag.Title = "Showing list of application extension attributes for user";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+@if (Model != null)
+{
+    if (!Model.Item1)
+    {
+        <span><b>The action threw an error: @Model.Item2</b></span>
+        <hr />
+    }
+
+
+    using (Html.BeginForm("ListuserExtAttributes", "Users"))
+    {
+        <div class="row">
+            <div class="=" col-md-12">
+                <div class="col-md-12">
+                    Listing app extension attributes for user: <span>&nbsp;<b>@Html.DisplayFor(a => a.Item3)</b></span>
+                    <hr />
+                </div>
+            </div>            
+            @foreach (ResultsItem item in Model.Item4)
+            {
+                <div class="=" col-md-12">
+                    <div class="col-md-12">
+                        <span>@item.Id</span> : <span>@item.Display</span>
+                    </div>                    
+                </div>
+            }
+        </div>
+    }
+}
+
+
+
+

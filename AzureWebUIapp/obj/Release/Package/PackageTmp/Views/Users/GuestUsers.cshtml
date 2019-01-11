@@ -1,0 +1,79 @@
+﻿
+@model AzureWebUIapp.Models.GuestUserModel
+
+@{
+    ViewBag.Title = "GuestUsers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (Model != null)
+{
+
+    if (Model.results != null)
+    {
+        if (Model.results.Any())
+        {
+        @Html.Partial("_ResultsPartial",Model.results)
+        }
+    }
+}
+else
+{
+    using (Html.BeginForm("CreateGuestUser", "Users"))
+    {
+<div class="row">
+    <div class="=" col-md-12">
+        <div class="col-md-4">
+            @Html.LabelFor(a => a.UserDisplayName)
+        </div>
+        <div class="col-md-8">
+            @Html.TextAreaFor(a => a.UserDisplayName)
+        </div>
+    </div>
+    <div class="=" col-md-12">
+        <div class="col-md-4">
+            @Html.LabelFor(a => a.UserEmailAddress)
+        </div>
+        <div class="col-md-8">
+            @Html.TextAreaFor(a => a.UserEmailAddress)
+        </div>
+    </div>
+    <div class="=" col-md-12">
+        <div class="col-md-4">
+            @Html.LabelFor(a => a.WelcomeMessage)
+        </div>
+        <div class="col-md-8">
+            @Html.TextAreaFor(a => a.WelcomeMessage)
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="col-md-4">
+            @Html.LabelFor(a => a.phone)
+        </div>
+        <div class="col-md-8">
+            @Html.TextAreaFor(a => a.phone)
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="col-md-4">
+            @Html.LabelFor(a => a.department)
+        </div>
+        <div class="col-md-8">
+            @Html.TextAreaFor(a => a.department)
+        </div>
+    </div>
+    <div class="=" col-md-12">
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-8">
+            <input type="submit" name="InviteGuestUser" value="Invite guest user" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+    }
+}
+
+
+
+

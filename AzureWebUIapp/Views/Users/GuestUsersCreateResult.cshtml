@@ -1,0 +1,38 @@
+﻿
+@model AzureWebUIapp.Models.GuestUserModel
+
+@{
+    ViewBag.Title = "Guest Users";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("GuestUsers", "Users"))
+{
+    if (Model != null)
+    {
+        <div class="row" style="padding-top:20px">
+            <div class="col-md-12 form-group">
+                <div class="col-sm-12">
+                    <b>Guest user creation for user @Model.UserEmailAddress (@Model.UserDisplayName) was @(Model.status ? "successful" : "not successful")</b>
+                    <br />
+                    The following message was received:<br />
+                    @Model.resultantMessage
+                </div>
+            </div>
+            @if (Model.status)
+            {
+                <div class="col-md-12 form-group">
+                    <div class="col-sm-12">
+                        The reference id for the user creation/invitation was: @Model.userID
+                    </div>
+                </div>
+            }
+        </div>
+    }
+}
+
+
+
+
+
+

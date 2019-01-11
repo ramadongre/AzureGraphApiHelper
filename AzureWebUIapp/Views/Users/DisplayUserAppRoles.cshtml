@@ -1,0 +1,43 @@
+﻿
+
+@model List<AzureWebUIapp.Models.ResultsItem>
+@{
+    /**/
+
+    ViewBag.Title = "DisplayUserAppRoles";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h6>Results:</h6>
+
+@if (Model != null)
+{
+
+    if (Model != null)
+    {
+        if (Model.Any())
+        {
+            foreach (var item in Model)
+            {
+                if (item.Properties.Count > 0)
+                {
+                    foreach (var property in item.Properties)
+                    {
+
+                        <div class="col-md-12 form-group">
+                            <div class="col-sm-3">
+                                @Html.DisplayFor(a => property.Key)
+                            </div>
+                            <div class="col-sm-5">
+                                @Html.DisplayFor(a => property.Value, new { Class = "form-control" })
+                            </div>
+                        </div>
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+

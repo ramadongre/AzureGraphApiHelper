@@ -1,0 +1,118 @@
+﻿@model AzureWebUIapp.Models.AddAppRoleToUserModel
+
+@{
+    ViewBag.Title = "Remove Application Role From user";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+@using (Html.BeginForm("RemoveAppRoleFromUser", "Users"))
+{
+    if (Model != null && !@Model.isOk)
+    {
+        <span><b>The action threw an error: @Model.message</b></span>
+    }
+    <h1>Remove app role from user</h1>
+    <span>Enter email address and further select application-name dropdown to force user-application-role-names to fill up</span>
+    <hr />
+    <div class="row" style="padding-top:20px">
+        <div class="col-md-12 form-group">
+            <div class="col-sm-3">
+                @Html.LabelFor(a => a.UserEmailAddress)
+            </div>
+            <div class="col-sm-5">
+                @Html.TextBoxFor(a => a.UserEmailAddress, new { Class = "form-control" })
+
+            </div>
+        </div>
+        <div class="col-md-12 form-group">
+            <div class="col-sm-3">
+                @Html.LabelFor(a => a.AppName)
+            </div>
+            <div class="col-sm-5">
+                @Html.DropDownListFor(a => a.AppName, Model.TenantApplications, new { Class = "form-control", onchange = "return LoadUserApplicationRoles();" })
+            </div>
+        </div>
+
+        <div class="col-md-12 form-group">
+            <div class="col-sm-3">
+                @Html.LabelFor(a => a.AppRoleName)
+            </div>
+            <div class="col-sm-5">
+                @*@Html.TextBoxFor(a => a.AppRoleName, new { Class = "form-control" })*@
+                @Html.DropDownListFor(a => a.AppRoleName, Model.ApplicationRoles, new { Class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-12 form-group">
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-5">
+                <input type="submit" name="removeapprole" value="Remove Application Role From User" class="btn btn-primary" style="align-content:center" />
+            </div>
+        </div>
+    </div>
+}
+<script type="text/javascript">
+
+
+    function RemoveBSAndTildaFromUrl(inputURL)//url be like Search/RunSearch etc
+    {
+        var formattedURL = inputURL;
+
+        while (formattedURL != null && formattedURL.length >= 1 && (formattedURL.substring(0, 1) == '/' || formattedURL.substring(0, 1) == '~' || formattedURL.substring(0, 1) == '.')) {
+            formattedURL = formattedURL.replace(formattedURL.substring(0, 1), '');//replace first occurence
+        }
+
+        return formattedURL;
+    }
+
+    function getBHISAbsoluteUrl(inputPartialUrl) {
+
+        inputPartialUrl = RemoveBSAndTildaFromUrl(inputPartialUrl);
+
+        var baseUrl = window.location.protocol + "//" + window.location.host + "/";
+
+        return baseUrl + inputPartialUrl;
+
+    }
+
+    function LoadUserApplicationRoles() {
+        var app = $("#AppName").val(); //alert(app);
+
+        if (app == null || app == '' || app == '-1')
+            return false;
+
+        $("#AppRoleName").html('');
+        $("#AppRoleName").attr("disabled", "disabled");
+
+        // alert(getBHISAbsoluteUrl('~/users/GetAppRoles?appname=' + app));
+
+        //load organizations
+        $.ajax({
+            url: getBHISAbsoluteUrl('~/users/GetUserApplicationRoles?appname=' + app + "&useremail=" + $("#UserEmailAddress").val()),
+            type: 'GET',
+            datatype: "html",
+            cache: false,
+            success: function (jsondata) {
+
+                if (jsondata != null) {
+
+                    for (var i = 0; i < jsondata.length; i++) {
+                        var newOption = "<option value='" + jsondata[i].Id + "'>" + jsondata[i].Display
+                            + "</option>";
+                        $("#AppRoleName").append(newOption);
+                    }
+                }
+
+                $("#AppRoleName").removeAttr("disabled");
+            },
+            error: function (e) {
+                alert('An error occured:' + e);
+                $("#AppRoleName").removeAttr("disabled");
+            }
+        });
+
+        return false;
+    }
+
+</script>
+

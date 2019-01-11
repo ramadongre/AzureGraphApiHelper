@@ -1,0 +1,45 @@
+﻿@using AzureWebUIapp.Models
+
+@model Tuple<bool, string, List<ResultsItem>>
+
+@{
+    ViewBag.Title = "Showing list of tenant applications";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<br />
+@if (Model != null)
+{
+    using (Html.BeginForm("ListTenantApps", "Users"))
+    {
+        if (!Model.Item1)
+        {
+            <div class="row">
+                <div class="=" col-md-12">
+                    <span><b>The action thre an error: @Model.Item2</b></span>
+                    <hr />
+                </div>
+            </div>
+        }
+        <div class="row">
+            <div class="=" col-md-12">
+                <div class="col-md-4">
+                    <b>Listing all tenant applications</b>
+                    <hr />
+                </div>
+            </div>            
+            @foreach (ResultsItem item in Model.Item3)
+            {
+                <div class="=" col-md-10">
+                    <div class="col-md-10">
+                        <span>@item.Display</span>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+}
+
+
+
+

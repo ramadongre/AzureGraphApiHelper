@@ -1,0 +1,48 @@
+﻿
+@model List<AzureWebUIapp.Models.ResultsItem>
+
+<div class="col-md-12">
+    <h6>Results:</h6>
+    @if (Model != null)
+    {
+
+        foreach (var item in Model)
+        {
+
+            <div class="row">
+                <div class="col-md-12 form-group">
+                    <div class="col-sm-3">
+                        @Html.Label("Guest user name")
+                    </div>
+                    <div class="col-sm-5">
+                        @Html.DisplayFor(a => item.Display, new { Class = "form-control" })
+                    </div>
+                </div>
+
+                @if (item.Properties.Count > 0)
+                {
+                    foreach (var property in item.Properties)
+                    {
+
+                        <div class="col-md-12 form-group">
+                            <div class="col-sm-3">
+                                @Html.DisplayFor(a => property.Key)
+                            </div>
+                            <div class="col-sm-5">
+                                @Html.DisplayFor(a => property.Value, new { Class = "form-control" })
+                            </div>
+                        </div>
+
+                    }
+                }
+            </div>
+        }
+    }
+
+    else
+    {
+        <p>No_Results</p>
+    }
+
+
+</div>

@@ -1,0 +1,49 @@
+﻿
+
+@model AzureWebUIapp.Models.UserGroupAssociation
+
+@{
+    ViewBag.Title = "Associate user with group";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>Add user to a group</h1>
+<hr />
+@using (Html.BeginForm("AssociateUserWithGroup", "Users"))
+{
+    if (Model != null && !Model.isOk)
+    {
+        <span><b>The action threw an error: @Model.message</b></span>
+    }
+
+    <div class="row" style="padding-top:20px">
+        <div class="col-md-12 form-group">
+            <div class="col-sm-3">
+                @Html.LabelFor(a => a.UserEmailAddress)
+            </div>
+            <div class="col-sm-5">
+                @Html.TextBoxFor(a => a.UserEmailAddress, new { Class = "form-control" })
+
+            </div>
+        </div>
+        <div class="col-md-12 form-group">
+            <div class="col-sm-3">
+                @Html.LabelFor(a => a.GroupName)
+            </div>
+            <div class="col-sm-5">
+                @Html.TextBoxFor(a => a.GroupName, new { Class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-12 form-group">
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-5">
+                <input type="submit" name="userassociate" value="Associate user with group" class="btn btn-primary" style="align-content:center" />
+            </div>
+        </div>
+    </div>
+}
+
+@*<h2>GuestUsers</h2>
+    @Html.Partial("_ResultsPartial")*@
+
+

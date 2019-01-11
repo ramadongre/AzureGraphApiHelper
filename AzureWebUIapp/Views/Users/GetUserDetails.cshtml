@@ -1,0 +1,142 @@
+﻿@using AzureWebUIapp.Models
+
+@model UserDetails
+
+@{
+    ViewBag.Title = "Showing user details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+@if (Model != null)
+{
+    using (Html.BeginForm("UserDetails", "Users"))
+    {
+        if (!Model.isOk)
+        {
+            <div class="row">
+                <div class="=" col-md-12">
+                    <span><b>The action thre an error: @Model.message</b></span>
+                </div>
+            </div>
+        }
+
+        <div class="row">
+            <div class="=" col-md-12">
+                <div class="col-md-12">
+                    <b>Listing user properties</b>
+                    <hr />
+                </div>
+            </div>
+            @if (Model.user != null)
+            {
+                <div class="=" col-md-12">
+                    <div class="col-md-6">
+                        City: @Model.user.City
+                    </div>
+                    <div class="col-md-6">
+                        CompanyName: @Model.user.CompanyName
+                    </div>
+                </div>
+                <div class="=" col-md-12">
+                    <div class="col-md-6">
+                        Country: @Model.user.Country
+                    </div>
+                    <div class="col-md-6">
+                        Department: @Model.user.Department
+                    </div>
+                </div>
+                <div class="=" col-md-12">
+                    <div class="col-md-6">
+                        DisplayName: @Model.user.DisplayName
+                    </div>
+                    <div class="col-md-6">
+                        GivenName: @Model.user.GivenName
+                    </div>
+                </div>
+                <div class="=" col-md-12">
+                    <div class="col-md-6">
+                        JobTitle: @Model.user.JobTitle
+                    </div>
+                    <div class="col-md-6">
+                        Mail: @Model.user.Mail
+                    </div>
+                </div>
+                <div class="=" col-md-12">
+                    <div class="col-md-6">
+                        MailNickname: @Model.user.MailNickname
+                    </div>
+                    <div class="col-md-6">
+                        Mobile: @Model.user.Mobile
+                    </div>
+                </div>
+                <div class="=" col-md-12">
+                    <div class="col-md-6">
+                        ObjectId: @Model.user.ObjectId
+                    </div>
+                    <div class="col-md-6">
+                        PostalCode: @Model.user.PostalCode
+                    </div>
+                </div>
+                <div class="=" col-md-12">
+                    <div class="col-md-6">
+                        TelephoneNumber: @Model.user.TelephoneNumber
+                    </div>
+                    <div class="col-md-6">
+                        UserPrincipalName: @Model.user.UserPrincipalName
+                    </div>
+                </div>
+                <div class="=" col-md-12">
+                    <div class="col-md-6">
+                        UserType: @Model.user.UserType
+                    </div>
+                </div>
+            }
+        </div>
+        <hr />
+        if (Model.tupAppRoles != null)
+        {
+            foreach (var item in Model.tupAppRoles)
+            {
+                <div class="row">
+                    <div class="=" col-md-12">
+                        <div class="col-md-12">
+                            Listing user application roles for application<span>&nbsp;<b>@item.Item1</b></span>
+                        </div>
+                    </div>
+                    <br />
+                    @foreach (ResultsItem ar in item.Item2)
+                    {
+                        <div class="=" col-md-10" style="padding-left:25px;">
+                            <div class="col-md-10">
+                                <span>@ar.Id</span>(<span>@ar.Display</span>)
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+        }
+        <br />
+        <div class="row">
+            <div class="=" col-md-12">
+                <div class="col-md-12">
+                    <b> Listing user application extension properties</b>
+                </div>
+            </div>
+            <hr />
+            @if (Model.exts != null)
+            {
+                foreach (ResultsItem ar in Model.exts)
+                {
+                    <div class="=" col-md-10">
+                        <div class="col-md-10">
+                            <span>@ar.Id</span>: <span>@ar.Display</span>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    }
+}
+
+
+

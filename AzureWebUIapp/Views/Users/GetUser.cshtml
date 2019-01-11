@@ -1,0 +1,33 @@
+﻿@model AzureWebUIapp.Models.GuestUserModel
+
+@{
+    ViewBag.Title = "Get user details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm("GetUser", "Users"))
+{
+    if (Model!= null && !Model.status)
+    {
+        <span><b>The action threw an error: @Model.resultantMessage</b></span>
+    }
+    <div class="row" style="padding-top:20px">
+        <div class="col-md-12 form-group">
+            <div class="col-sm-3">
+                @Html.LabelFor(a => a.UserEmailAddress)
+            </div>
+            <div class="col-sm-5">
+                @Html.TextBoxFor(a => a.UserEmailAddress, new { Class = "form-control" })
+
+            </div>
+        </div>
+        <div class="col-md-12 form-group">
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-5">
+                <input type="submit" name="getuser" value="Get User details" class="btn btn-primary" style="align-content:center" />
+            </div>
+        </div>
+    </div>
+}
+
+

@@ -1,0 +1,35 @@
+﻿
+@model Tuple<bool, string, string, Microsoft.Azure.ActiveDirectory.GraphClient.User>
+
+@{
+    ViewBag.Title = "Show User";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+@using (Html.BeginForm("ShowUser", "Users"))
+{
+    <div class="row" style="padding-top:20px">
+        <div class="col-md-12 form-group">
+            <div class="col-sm-12">
+                The user update for @Model.Item3 was @(Model.Item1 ? "successful" : "not successful")<br />
+                The message for update was:<br />
+                @Model.Item2<br />
+            </div>
+        </div>
+        <hr />
+        <div class="col-md-12 form-group">
+            <div class="col-sm-12">
+                <span>@("Job title: " + Model.Item4.JobTitle)</span><br />
+                <span>@("Department: " + Model.Item4.Department)</span><br />
+                <span>@("City: " + Model.Item4.City)</span><br />                
+                <span>@("Phone: " + Model.Item4.TelephoneNumber)</span><br />
+            </div>
+        </div>
+    </div>
+}
+
+
+
+
+
+

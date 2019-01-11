@@ -1,0 +1,46 @@
+﻿@using AzureWebUIapp.Models
+
+@model Tuple<bool, string, string, List<ResultsItem>>
+
+@{
+    ViewBag.Title = "Showing list of users under group";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+@if (Model != null)
+{
+    using (Html.BeginForm("ListGroupMembers", "Users"))
+    {
+        if (Model != null && !Model.Item1)
+        {
+            <span><b>The action threw an error: @Model.Item2</b></span>
+            <hr />
+        }
+
+        <div class="row">
+            <div class="=" col-md-12">
+                <div class="col-md-12">
+                    Listing members of group<span style="padding-left:10px;"><b>@Html.DisplayFor(a => a.Item3)</b></span>
+                    <hr />
+                </div>
+            </div>
+            <br />
+            @foreach (ResultsItem item in Model.Item4)
+            {
+                <div class="=" col-md-12">
+                    <div class="col-md-6">
+                        Object ID: <span>@item.Id</span>
+                    </div>
+                    <div class="col-md-6">
+                        Display Name: <span>@item.Display</span>
+                    </div>
+                </div>
+
+            }
+        </div>
+    }
+}
+
+
+
+

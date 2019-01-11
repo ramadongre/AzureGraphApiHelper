@@ -1,0 +1,635 @@
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\obj\Debug\AzureWebUIapp.csproj.CoreCompileInputs.cache
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\ApplicationInsights.config
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\AzureWebUIapp.dll.config
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\AzureWebUIapp.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\AzureWebUIapp.pdb
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\csc.exe
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\csc.exe.config
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\csc.rsp
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\csi.exe
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\csi.exe.config
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\csi.rsp
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.AppContext.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Collections.Immutable.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Console.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.IO.Compression.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.IO.FileSystem.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.IO.Pipes.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Security.AccessControl.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Security.Claims.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.ValueTuple.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Xml.XPath.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\vbc.exe
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\vbc.exe.config
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\vbc.rsp
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\VBCSCompiler.exe
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\VBCSCompiler.exe.config
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Antlr3.Runtime.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.Web.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.WindowsServer.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.ApplicationInsights.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Graph.Core.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Graph.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Logging.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Protocols.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Security.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Security.OpenIdConnect.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Web.Infrastructure.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Newtonsoft.Json.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Owin.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Net.Http.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Security.Cryptography.Algorithms.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Security.Cryptography.Encoding.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Security.Cryptography.Primitives.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Helpers.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Mvc.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Optimization.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Razor.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.WebPages.Deployment.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.WebPages.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.WebPages.Razor.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\WebGrease.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Graph.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Graph.Core.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Logging.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Protocols.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Security.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Security.OpenIdConnect.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Helpers.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Mvc.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Optimization.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Razor.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.WebPages.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.WebPages.Deployment.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.WebPages.Razor.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Newtonsoft.Json.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Antlr3.Runtime.pdb
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.WindowsServer.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.Web.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\obj\Debug\AzureWebUIapp.csproj.CopyComplete
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\obj\Debug\AzureWebUIapp.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\obj\Debug\AzureWebUIapp.pdb
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Shree_Office\LiveExamples\AzureWebUIapp\AzureWebUIapp\obj\Debug\AzureWebUIapp.csprojAssemblyReference.cache
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ApplicationInsights.config
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\AzureWebUIapp.dll.config
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\AzureWebUIapp.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\AzureWebUIapp.pdb
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\csc.exe
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\csc.exe.config
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\csc.rsp
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\csi.exe
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\csi.exe.config
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\csi.rsp
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.AppContext.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Collections.Immutable.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Console.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.IO.Compression.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.IO.FileSystem.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.IO.Pipes.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Security.AccessControl.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Security.Claims.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.ValueTuple.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Xml.XPath.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\vbc.exe
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\vbc.exe.config
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\vbc.rsp
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\VBCSCompiler.exe
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\VBCSCompiler.exe.config
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Antlr3.Runtime.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.Web.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.WindowsServer.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.ApplicationInsights.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Azure.ActiveDirectory.GraphClient.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Data.Edm.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Data.OData.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Data.Services.Client.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Graph.Core.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Graph.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Logging.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Protocols.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Security.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Security.OpenIdConnect.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Web.Infrastructure.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Newtonsoft.Json.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Owin.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Net.Http.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Security.Cryptography.Algorithms.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Security.Cryptography.Encoding.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Security.Cryptography.Primitives.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Spatial.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Helpers.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Mvc.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Optimization.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Razor.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.WebPages.Deployment.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.WebPages.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.WebPages.Razor.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\WebGrease.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Data.Edm.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Data.OData.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Data.Services.Client.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Graph.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Graph.Core.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Logging.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Protocols.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Security.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Security.OpenIdConnect.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Spatial.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Helpers.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Mvc.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Optimization.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Razor.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.WebPages.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.WebPages.Deployment.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.WebPages.Razor.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Newtonsoft.Json.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Antlr3.Runtime.pdb
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.WindowsServer.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.Web.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\de\Microsoft.Data.OData.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\es\Microsoft.Data.OData.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\it\Microsoft.Data.OData.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\de\System.Spatial.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\es\System.Spatial.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\fr\System.Spatial.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\it\System.Spatial.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ja\System.Spatial.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ko\System.Spatial.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ru\System.Spatial.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\zh-Hans\System.Spatial.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\zh-Hant\System.Spatial.resources.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\obj\Debug\AzureWebUIapp.csprojAssemblyReference.cache
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\obj\Debug\AzureWebUIapp.csproj.CoreCompileInputs.cache
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\obj\Debug\AzureWebUIapp.csproj.CopyComplete
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\obj\Debug\AzureWebUIapp.dll
+C:\Shree_Office\FinalExamples\AzureWebUIapp\AzureWebUIapp\obj\Debug\AzureWebUIapp.pdb
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ApplicationInsights.config
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\AzureWebUIapp.dll.config
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\AzureWebUIapp.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\AzureWebUIapp.pdb
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\csc.exe
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\csc.exe.config
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\csc.rsp
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\csi.exe
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\csi.exe.config
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\csi.rsp
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.AppContext.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Collections.Immutable.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Console.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.IO.Compression.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.IO.FileSystem.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.IO.Pipes.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Security.AccessControl.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Security.Claims.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.ValueTuple.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Xml.XPath.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\vbc.exe
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\vbc.exe.config
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\vbc.rsp
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\VBCSCompiler.exe
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\roslyn\VBCSCompiler.exe.config
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Antlr3.Runtime.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.Web.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.WindowsServer.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.ApplicationInsights.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Azure.ActiveDirectory.GraphClient.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Data.Edm.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Data.OData.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Data.Services.Client.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Graph.Core.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Graph.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Logging.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Protocols.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Security.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Security.OpenIdConnect.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Web.Infrastructure.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Newtonsoft.Json.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Owin.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Net.Http.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Security.Cryptography.Algorithms.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Security.Cryptography.Encoding.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Security.Cryptography.Primitives.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Spatial.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Helpers.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Mvc.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Optimization.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Razor.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.WebPages.Deployment.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.WebPages.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.WebPages.Razor.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\WebGrease.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Data.Edm.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Data.OData.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Data.Services.Client.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Graph.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Graph.Core.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Logging.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Protocols.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Security.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.Owin.Security.OpenIdConnect.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Spatial.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Helpers.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Mvc.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Optimization.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.Razor.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.WebPages.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.WebPages.Deployment.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Web.WebPages.Razor.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Newtonsoft.Json.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Antlr3.Runtime.pdb
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.WindowsServer.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.AI.Web.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\de\Microsoft.Data.OData.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\es\Microsoft.Data.OData.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\it\Microsoft.Data.OData.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\de\System.Spatial.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\es\System.Spatial.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\fr\System.Spatial.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\it\System.Spatial.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ja\System.Spatial.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ko\System.Spatial.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\ru\System.Spatial.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\zh-Hans\System.Spatial.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\bin\zh-Hant\System.Spatial.resources.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\obj\Debug\AzureWebUIapp.csprojAssemblyReference.cache
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\obj\Debug\AzureWebUIapp.csproj.CoreCompileInputs.cache
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\obj\Debug\AzureWebUIapp.csproj.CopyComplete
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\obj\Debug\AzureWebUIapp.dll
+C:\Shree_Office\IAM\FinalExamples\AzureWebUIapp\AzureWebUIapp\obj\Debug\AzureWebUIapp.pdb
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\ApplicationInsights.config
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\AzureWebUIapp.dll.config
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\AzureWebUIapp.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\AzureWebUIapp.pdb
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\csc.exe
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\csc.exe.config
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\csc.rsp
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\csi.exe
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\csi.exe.config
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\csi.rsp
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.AppContext.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.Collections.Immutable.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.Console.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.IO.Compression.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.IO.FileSystem.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.IO.Pipes.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.Security.AccessControl.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.Security.Claims.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.ValueTuple.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.Xml.XPath.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\vbc.exe
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\vbc.exe.config
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\vbc.rsp
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\VBCSCompiler.exe
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\roslyn\VBCSCompiler.exe.config
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Antlr3.Runtime.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.AI.Web.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.AI.WindowsServer.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.ApplicationInsights.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.Azure.ActiveDirectory.GraphClient.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.Data.Edm.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.Data.OData.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.Data.Services.Client.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.Graph.Core.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.Graph.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.IdentityModel.Logging.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.IdentityModel.Protocols.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.Owin.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.Owin.Security.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.Owin.Security.OpenIdConnect.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.Web.Infrastructure.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Newtonsoft.Json.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Owin.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.Net.Http.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.Security.Cryptography.Algorithms.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.Security.Cryptography.Encoding.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.Security.Cryptography.Primitives.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.Spatial.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.Web.Helpers.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.Web.Mvc.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.Web.Optimization.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.Web.Razor.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.Web.WebPages.Deployment.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.Web.WebPages.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.Web.WebPages.Razor.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\WebGrease.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.Data.Edm.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.Data.OData.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.Data.Services.Client.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.Graph.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.Graph.Core.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.IdentityModel.Logging.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.IdentityModel.Protocols.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.Owin.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.Owin.Security.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.Owin.Security.OpenIdConnect.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.Spatial.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.Web.Helpers.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.Web.Mvc.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.Web.Optimization.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.Web.Razor.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.Web.WebPages.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.Web.WebPages.Deployment.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.Web.WebPages.Razor.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Newtonsoft.Json.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Antlr3.Runtime.pdb
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.AI.WindowsServer.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.AI.Web.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\de\Microsoft.Data.OData.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\es\Microsoft.Data.OData.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\it\Microsoft.Data.OData.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\de\System.Spatial.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\es\System.Spatial.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\fr\System.Spatial.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\it\System.Spatial.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\ja\System.Spatial.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\ko\System.Spatial.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\ru\System.Spatial.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\zh-Hans\System.Spatial.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\bin\zh-Hant\System.Spatial.resources.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\obj\Debug\AzureWebUIapp.csproj.CoreCompileInputs.cache
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\obj\Debug\AzureWebUIapp.csproj.CopyComplete
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\obj\Debug\AzureWebUIapp.dll
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\obj\Debug\AzureWebUIapp.pdb
+C:\Files\BHIS Related\AzureWebUIapp-GraphAPI\AzureWebUIapp\obj\Debug\AzureWebUIapp.csprojAssemblyReference.cache
