@@ -1,7 +1,7 @@
 # AzureGraphApiHelper
 Uses Microsoft Graph API and Azure Graph API to perform basic Azure Active Directory actions.
 
-This example uses VS 2017, .NET 4.6.1 and ASP.NET MVC. This also assumes that the contextual signed-in user has right amount of privileges to perform underlying actions.
+This example uses VS 2017, .NET 4.6.1 and ASP.NET MVC. This also assumes that the contextual signed-in user has right amount of privileges to perform underlying actions in the form of delegated API permissions and not application permissions.
 
 UI validations have been kept to a minimal and the class to look for is AzureWebUIapp.Utils.UsersGraphServices.
 
