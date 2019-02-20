@@ -25,6 +25,10 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -241,6 +245,7 @@
     <Compile Include="Utils\UsersGraphServices.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ApiListing.txt" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -302,6 +307,8 @@
     <Content Include="Views\Users\ListTenantApps.cshtml" />
     <Content Include="Views\Users\GetUser.cshtml" />
     <Content Include="Views\Users\GetUserDetails.cshtml" />
+    <Content Include="Views\Users\AccessReview.cshtml" />
+    <Content Include="Views\Users\ListAccessReviews.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
