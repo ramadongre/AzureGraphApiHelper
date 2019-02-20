@@ -17,14 +17,18 @@
             </div>
         </div>
         <hr />
-        <div class="col-md-12 form-group">
-            <div class="col-sm-12">
-                <span>@("Job title: " + Model.Item4.JobTitle)</span><br />
-                <span>@("Department: " + Model.Item4.Department)</span><br />
-                <span>@("City: " + Model.Item4.City)</span><br />                
-                <span>@("Phone: " + Model.Item4.TelephoneNumber)</span><br />
+
+        @if (Model.Item4 != null)
+        {
+            <div class="col-md-12 form-group">
+                <div class="col-sm-12">
+                    <span>@("Job title: " + Model.Item4.JobTitle)</span><br />
+                    <span>@("Department: " + Model.Item4.Department)</span><br />
+                    <span>@("City: " + Model.Item4.City)</span><br />
+                    <span>@("Phone: " + Model.Item4.TelephoneNumber)</span><br />
+                </div>
             </div>
-        </div>
+        }
     </div>
 }
 

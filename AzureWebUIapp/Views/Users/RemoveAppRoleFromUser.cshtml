@@ -54,27 +54,6 @@
 <script type="text/javascript">
 
 
-    function RemoveBSAndTildaFromUrl(inputURL)//url be like Search/RunSearch etc
-    {
-        var formattedURL = inputURL;
-
-        while (formattedURL != null && formattedURL.length >= 1 && (formattedURL.substring(0, 1) == '/' || formattedURL.substring(0, 1) == '~' || formattedURL.substring(0, 1) == '.')) {
-            formattedURL = formattedURL.replace(formattedURL.substring(0, 1), '');//replace first occurence
-        }
-
-        return formattedURL;
-    }
-
-    function getBHISAbsoluteUrl(inputPartialUrl) {
-
-        inputPartialUrl = RemoveBSAndTildaFromUrl(inputPartialUrl);
-
-        var baseUrl = window.location.protocol + "//" + window.location.host + "/";
-
-        return baseUrl + inputPartialUrl;
-
-    }
-
     function LoadUserApplicationRoles() {
         var app = $("#AppName").val(); //alert(app);
 

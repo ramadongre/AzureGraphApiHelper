@@ -24,7 +24,7 @@
         {
             <div class="col-md-12 form-group">
                 <div class="col-sm-12">
-                    <span>@("ID: " + a.Id + " , UPN: " + a.UserPrincipalName + " , Display Name: " + a.DisplayName + "")</span>
+                    <span>@("ID: " + a.Id + ", Mail:" + (a.Mail == null ? "" : a.Mail) + " , UPN: " + a.UserPrincipalName + " , Display Name: " + a.DisplayName + "")</span>
                 </div>
             </div>
         }

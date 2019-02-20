@@ -1,0 +1,192 @@
+﻿@model  AzureWebUIapp.Models.AccessReviews
+
+@using Newtonsoft.Json
+
+@{
+    ViewBag.Title = "Listing Access Reviews for Current Tenant";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12" id="dvmessage" style="font-weight:bold;margin-top:10px;margin-left:10px;">
+        @if (!Model.status)
+        {
+            <span>@Model.resultantMessage</span>
+        }
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 form-group" style="margin-top:10px;margin-left:10px;">
+        <b>Listing Access Reviews for Current Tenant</b>
+        <hr />
+    </div>
+    @if (Model.lstResult != null)
+    {
+        <div class="col-md-12 form-group table-responsive" id="dvids">
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td>Access Review ID</td>
+                        <td>Access Review Type</td>
+                        <td>Current Access Review ID (For Recurring)</td>
+                        <td>Details</td>
+                        <td>Links</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (Tuple<string, string, string, string> s in Model.lstResult)
+                    {
+                    <tr>
+                        <td>
+                            @s.Item1
+                        </td>
+                        <td>
+                            @s.Item3
+                        </td>
+                        <td>
+                            @s.Item2
+                        </td>
+                        <td>
+                            @s.Item4
+                        </td>
+                        <td>
+                            <input type="submit" id="btnGetAR" value="Get Access Review Details" onclick="return getARDetails('@s.Item1',1);" class="btn btn-link" style="align-content:center" />
+
+                            <input type="submit" id="btnListARReviewers" value="List Access Review Reviewers" class="btn btn-link" onclick="return getARDetails('@s.Item1',2);" style="align-content:center" />
+
+                            <input type="submit" id="btnListARDecisions" value="List Access Review Decisions" class="btn btn-link" onclick="return getARDetails('@s.Item1',3);" style="align-content:center" />
+
+                            <input type="submit" id="btnApplyAR" value="Apply Access Review Decisions" class="btn btn-link" onclick="return ApplyAR('@s.Item1');" style="align-content:center" />
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+
+            </table>
+
+            <div class="col-sm-12" id="dvinstanceholder">
+
+            </div>
+            <div id="divtoscrollto"></div>
+        </div>
+
+    }
+    <div class="col-md-12" id="txtARDetails">
+        <pre id="jsonDataResult">           
+            </pre>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    function ApplyAR(arid) {
+
+        $("#dvmessage").html('');
+        $("#jsonDataResult").text('');
+
+        var app = arid;//$("#txtARID").val();
+
+        if (app == null || app == '')
+            return false;
+
+
+        $(':submit').prop('disabled', true);
+
+        $.ajax({
+            url: getBHISAbsoluteUrl('~/users/ApplyAccessReviews?id=' + app),
+            type: 'POST',
+            datatype: "JSON",
+            cache: false,
+            success: function (jsondata) {
+
+                if (jsondata != null) {
+                    if (jsondata.status == "OK") {
+
+                        var jsonStr = $("pre").text();
+                        var jsonObj = JSON.parse(jsondata.jresult);
+                        var jsonPretty = JSON.stringify(jsonObj, null, '\t');
+
+                        //$("pre").text(jsonPretty);
+
+                        $("#jsonDataResult").text(jsonPretty);
+                    }
+                    else {
+                        $("#dvmessage").html('An error occured:' + jsondata.message);
+                    }
+                }
+                else {
+                    $("#dvmessage").html('An error occured:' + e);
+                }
+
+                $(':submit').prop('disabled', false);
+            },
+            error: function (e) {
+                $("#dvmessage").html('An error occured:' + e);
+
+                $(':submit').prop('disabled', false);
+            }
+        });
+
+        document.getElementById("divtoscrollto").scrollIntoView();
+
+        return false;
+    }
+
+    function getARDetails(arid, typeid) {
+
+        $("#dvmessage").html('');
+        $("#jsonDataResult").text('');
+
+        var app = arid;//$("#txtARID").val();
+
+        if (app == null || app == '')
+            return false;
+
+
+        $(':submit').prop('disabled', true);
+
+        $.ajax({
+            url: getBHISAbsoluteUrl('~/users/GetAccessReviewDetails?typeid=' + typeid + "&id=" + app),
+            type: 'GET',
+            datatype: "JSON",
+            cache: false,
+            success: function (jsondata) {
+
+                if (jsondata != null) {
+                    if (jsondata.status == "OK") {
+
+                        var jsonStr = $("pre").text();
+                        var jsonObj = JSON.parse(jsondata.jresult);
+                        var jsonPretty = JSON.stringify(jsonObj, null, '\t');
+
+                        //$("pre").text(jsonPretty);
+
+                        $("#jsonDataResult").text(jsonPretty);
+                    }
+                    else {
+                        $("#dvmessage").html('An error occured:' + jsondata.message);
+                    }
+                }
+                else {
+                    $("#dvmessage").html('An error occured:' + e);
+                }
+
+                $(':submit').prop('disabled', false);
+            },
+            error: function (e) {
+                $("#dvmessage").html('An error occured:' + e);
+
+                $(':submit').prop('disabled', false);
+            }
+        });
+                
+        document.getElementById("divtoscrollto").scrollIntoView();
+
+        return false;
+    }
+
+</script>
+
+
+

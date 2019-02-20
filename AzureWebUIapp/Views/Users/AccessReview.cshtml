@@ -1,0 +1,108 @@
+﻿@{
+    ViewBag.Title = "Access Review details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using Newtonsoft.Json
+
+<div class="row">
+    <div class="col-md-12" id="dvmessage" style="font-weight:bold;margin-top:10px;margin-left:10px;">
+
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 form-group" style="margin-top:10px;margin-left:10px;">
+        <b>Access review details</b>
+        <hr />
+    </div>
+    <div class="col-md-12 form-group">
+        <div class="col-sm-3">
+            @Html.Label("Enter Access Review ID")
+        </div>
+        <div class="col-sm-5">
+            @Html.TextBox("txtARID", "", new { Class = "form-control" })
+        </div>
+    </div>
+    <div class="col-md-12 form-group">
+        <div class="col-sm-3">
+            <input type="submit" id="btnGetAR" value="Get Access Review Details" onclick="return getARDetails(1);" class="btn btn-primary" style="align-content:center" />
+        </div>
+        <div class="col-sm-3">
+            <input type="submit" id="btnListARReviewers" value="List Access Review Reviewers" class="btn btn-primary" onclick="return getARDetails(2);" style="align-content:center" />
+        </div>
+        <div class="col-sm-3">
+            <input type="submit" id="btnListARDecisions" value="List Access Review Decisions" class="btn btn-primary" onclick="return getARDetails(3);" style="align-content:center" />
+        </div>
+    </div>
+    <div class="col-md-12" id="txtARDetails">
+        <pre id="jsonDataResult">                
+                  
+            </pre>
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+
+    function getARDetails(id) {
+
+        $("#dvmessage").html('');
+        $("#jsonDataResult").text('');
+
+        var app = $("#txtARID").val();
+
+        if (app == null || app == '')
+            return false;
+                
+
+        $("#btnGetAR").prop("disabled", true);
+        $("#btnListARReviewers").prop("disabled", true);
+        $("#btnListARDecisions").prop("disabled", true);
+
+        $.ajax({
+            url: getBHISAbsoluteUrl('~/users/GetAccessReviewDetails?typeid=' + id + "&id=" + app),
+            type: 'GET',
+            datatype: "JSON",
+            cache: false,
+            success: function (jsondata) {
+
+                if (jsondata != null) {
+                    if (jsondata.status == "OK") {
+
+                        var jsonStr = $("pre").text();
+                        var jsonObj = JSON.parse(jsondata.jresult);
+                        var jsonPretty = JSON.stringify(jsonObj, null, '\t');
+
+                        //$("pre").text(jsonPretty);
+
+                        $("#jsonDataResult").text(jsonPretty);
+                    }
+                    else {
+                        $("#dvmessage").html('An error occured:' + jsondata.message);
+                    }
+                }
+                else {
+                    $("#dvmessage").html('An error occured:' + e);
+                }
+
+                $("#btnGetAR").prop("disabled", false);
+                $("#btnListARReviewers").prop("disabled", false);
+                $("#btnListARDecisions").prop("disabled", false);
+            },
+            error: function (e) {
+                $("#dvmessage").html('An error occured:' + e);
+
+                $("#btnGetAR").prop("disabled", false);
+                $("#btnListARReviewers").prop("disabled", false);
+                $("#btnListARDecisions").prop("disabled", false);
+            }
+        });
+
+        return false;
+    }
+
+</script>
+
+
+

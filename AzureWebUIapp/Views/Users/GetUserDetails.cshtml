@@ -135,6 +135,26 @@
                 }
             }
         </div>
+        <br />
+        <div class="row">
+            <div class="=" col-md-12">
+                <div class="col-md-12">
+                    <b> Listing user groups</b>
+                </div>
+            </div>
+            <hr />
+            @if (Model.Groups != null)
+            {
+                foreach (string g in Model.Groups)
+                {
+                    <div class="=" col-md-10">
+                        <div class="col-md-10">
+                            <span>@g</span>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
     }
 }
 
