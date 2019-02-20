@@ -22,14 +22,24 @@ namespace AzureWebUIapp.Utils
         public static String token;
 
 
-        public static GraphServiceClient CreateGraphServiceClient()
+        public static GraphServiceClient CreateGraphServiceClient(bool useApplicationContext = false)
         {
             var clientCredential = new ClientCredential(ConfigHelper.ClientId, ConfigHelper.AppKey);
+
             string userObjectID = ClaimsPrincipal.Current.FindFirst(
                     "http://schemas.microsoft.com/identity/claims/objectidentifier").Value;
-            var authenticationContext = new AuthenticationContext($"https://login.microsoftonline.com/" + ConfigHelper.Tenant, new TokenDbCache(userObjectID));
 
-            if (authenticationContext.TokenCache.Count == 0)
+            AuthenticationContext authenticationContext = null;
+
+            if (!useApplicationContext)
+            {
+                authenticationContext = new AuthenticationContext($"https://login.microsoftonline.com/" + ConfigHelper.Tenant, new TokenDbCache(userObjectID));
+            }
+            else
+                authenticationContext = new AuthenticationContext($"https://login.microsoftonline.com/" + ConfigHelper.Tenant);
+
+
+            if (authenticationContext.TokenCache.Count == 0 && !useApplicationContext)
             {
                 authenticationContext.TokenCache.Clear();
                 TokenDbCache tokenCache = new TokenDbCache(userObjectID);
@@ -48,7 +58,12 @@ namespace AzureWebUIapp.Utils
 
                 try
                 {
-                    res = authenticationContext.AcquireTokenSilentAsync(ConfigHelper.GraphUrl, clientCredential, new UserIdentifier(userObjectID, UserIdentifierType.UniqueId)).Result;
+                    if (!useApplicationContext)
+                        res = authenticationContext.AcquireTokenSilentAsync(ConfigHelper.GraphUrl, clientCredential, new UserIdentifier(userObjectID, UserIdentifierType.UniqueId)).Result;
+                    else
+                        res = authenticationContext.AcquireTokenAsync(ConfigHelper.GraphUrl, clientCredential).Result;
+
+
                 }
                 catch (Exception ex)
                 {
@@ -68,28 +83,34 @@ namespace AzureWebUIapp.Utils
             return null;
         }
 
-        public static ActiveDirectoryClient GetActiveDirectoryClient()
+        public static ActiveDirectoryClient GetActiveDirectoryClient(bool useApplicationContext = false)
         {
             Uri baseServiceUri = new Uri(ConfigHelper.AzureADGraphUrl);
             ActiveDirectoryClient activeDirectoryClient =
                 new ActiveDirectoryClient(new Uri(baseServiceUri, ConfigHelper.Tenant),
-                    async () => await AcquireTokenAsyncForApplication());
+                    async () => await AcquireTokenAsyncForApplication(useApplicationContext));
             return activeDirectoryClient;
         }
 
-        public static async Task<string> AcquireTokenAsyncForApplication()
+        public static async Task<string> AcquireTokenAsyncForApplication(bool useApplicationContext = false)
         {
-            return await GetTokenForApplication().ConfigureAwait(false);
+            return await GetTokenForApplication(useApplicationContext).ConfigureAwait(false);
         }
 
-        public static async Task<string> GetTokenForApplication()
+        public static async Task<string> GetTokenForApplication(bool useApplicationContext = false, bool useAzureADGraph=true)
         {
             var clientCredential = new ClientCredential(ConfigHelper.ClientId, ConfigHelper.AppKey);
             string userObjectID = ClaimsPrincipal.Current.FindFirst(
                     "http://schemas.microsoft.com/identity/claims/objectidentifier").Value;
-            var authenticationContext = new AuthenticationContext($"https://login.microsoftonline.com/" + ConfigHelper.Tenant, new TokenDbCache(userObjectID));
 
-            if (authenticationContext.TokenCache.Count == 0)
+            AuthenticationContext authenticationContext = null;
+
+            if (!useApplicationContext)
+                authenticationContext = new AuthenticationContext($"https://login.microsoftonline.com/" + ConfigHelper.Tenant, new TokenDbCache(userObjectID));
+            else
+                authenticationContext = new AuthenticationContext($"https://login.microsoftonline.com/" + ConfigHelper.Tenant);
+
+            if (authenticationContext.TokenCache.Count == 0 && !useApplicationContext)
             {
                 authenticationContext.TokenCache.Clear();
                 TokenDbCache tokenCache = new TokenDbCache(userObjectID);
@@ -107,11 +128,14 @@ namespace AzureWebUIapp.Utils
 
                 try
                 {
-                    res = authenticationContext.AcquireTokenSilentAsync(ConfigHelper.AzureADGraphUrl, clientCredential, new UserIdentifier(userObjectID, UserIdentifierType.UniqueId)).Result;
+                    if(!useApplicationContext)
+                        res = authenticationContext.AcquireTokenSilentAsync((useAzureADGraph? ConfigHelper.AzureADGraphUrl:ConfigHelper.GraphUrl) , 
+                            clientCredential, new UserIdentifier(userObjectID, UserIdentifierType.UniqueId)).Result;
+                    else
+                        res = authenticationContext.AcquireTokenAsync((useAzureADGraph ? ConfigHelper.AzureADGraphUrl : ConfigHelper.GraphUrl), clientCredential).Result;
                 }
                 catch (Exception ex)
                 {
-                    //res = authenticationContext.AcquireTokenAsync(ConfigHelper.AzureADGraphUrl, clientCredential).Result;
                 }
 
                 var token = res.AccessToken;
@@ -121,17 +145,5 @@ namespace AzureWebUIapp.Utils
 
             return null;
         }
-
-
-        //public static async Task<string> AcquireTokenAsync()
-        //{
-        //    if (token == null || token.IsEmpty())
-        //    {
-        //        throw new Exception("Authorization Required.");
-        //    }
-        //    return token;
-        //}
-
-
     }
 }

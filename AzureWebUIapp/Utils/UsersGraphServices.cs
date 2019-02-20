@@ -74,7 +74,7 @@ namespace AzureWebUIapp.Utils
                 }
                 catch (Exception ex)
                 {
-                    message = ex.Message;
+                    message = ex.Message + (ex.InnerException != null ? Environment.NewLine + ex.InnerException.Message : "");
                 }
                 finally
                 {
@@ -103,7 +103,7 @@ namespace AzureWebUIapp.Utils
 
             try
             {
-                IGraphServiceUsersCollectionPage _usersFilteredId = await graphClient.Users.Request().Filter($"Mail eq '" + emailID + "'").GetAsync();
+                IGraphServiceUsersCollectionPage _usersFilteredId = await graphClient.Users.Request().Filter($"Mail eq '" + emailID + "' or UserPrincipalName eq '" + emailID + "'").GetAsync();
                 userObjectID = _usersFilteredId.Select(a => a.Id).SingleOrDefault().ToString();
 
                 if (!string.IsNullOrEmpty(userObjectID))
@@ -145,7 +145,7 @@ namespace AzureWebUIapp.Utils
             }
             catch (Exception ex)
             {
-                message = ex.Message;
+                message = ex.Message + (ex.InnerException != null ? Environment.NewLine + ex.InnerException.Message : "");
             }
 
             return new Tuple<bool, string, string, string>(ActionStatus, message, userObjectID, groupid);
@@ -170,7 +170,7 @@ namespace AzureWebUIapp.Utils
 
             try
             {
-                IGraphServiceUsersCollectionPage _usersFilteredId = await graphClient.Users.Request().Filter($"Mail eq '" + emailID + "'").GetAsync();
+                IGraphServiceUsersCollectionPage _usersFilteredId = await graphClient.Users.Request().Filter($"Mail eq '" + emailID + "' or UserPrincipalName eq '" + emailID + "'").GetAsync();
                 userObjectID = _usersFilteredId.Select(a => a.Id).SingleOrDefault().ToString();
 
                 if (!string.IsNullOrEmpty(userObjectID))
@@ -211,7 +211,7 @@ namespace AzureWebUIapp.Utils
             }
             catch (Exception ex)
             {
-                message = ex.Message;
+                message = ex.Message + (ex.InnerException != null ? Environment.NewLine + ex.InnerException.Message : "");
             }
 
             return new Tuple<bool, string, string, string>(ActionStatus, message, userObjectID, groupid);
@@ -240,7 +240,8 @@ namespace AzureWebUIapp.Utils
                     AppRoleAssignment assignment = new AppRoleAssignment();
                     assignment.CreationTimestamp = System.DateTime.Now;
 
-                    var _usersFiltered = azureGraphclient.Users.Where(a => a.Mail == UserEmailAddress).ExecuteAsync().Result;
+                    var _usersFiltered = azureGraphclient.Users.Where(a => a.Mail.Equals(UserEmailAddress, StringComparison.InvariantCultureIgnoreCase) ||
+                    a.UserPrincipalName.Equals(UserEmailAddress, StringComparison.InvariantCultureIgnoreCase)).ExecuteAsync().Result;
                     if (_usersFiltered != null)
                     {
                         userObjectID = Guid.Parse(_usersFiltered.CurrentPage.Select(a => a.ObjectId).SingleOrDefault().ToString());
@@ -295,12 +296,188 @@ namespace AzureWebUIapp.Utils
                 }
                 catch (Exception ex)
                 {
-                    message = ex.Message;
+                    message = ex.Message + (ex.InnerException != null ? Environment.NewLine + ex.InnerException.Message : "");
                 }
             }
 
             return new Tuple<bool, string, string, string, string>(ActionStatus, message, userObjectID.ToString(), approleid.ToString(), srvpr.ToString());
         }
+
+        public async Task<Tuple<bool, string, string>> GetAccessReviewProgramControlList(GraphServiceClient graphclient, string accessToken, string graphUrl)
+        {
+
+            bool ActionStatus = false;
+            string message = string.Empty, jsonResult = "";
+
+            if (graphclient == null)
+                return new Tuple<bool, string, string>(false, "Invalid input data", jsonResult);
+            else
+            {
+                try
+                {
+                    var uri = "/beta/programControls";
+                    jsonResult = await ExecuteMSGraphRequest<object>(accessToken, graphUrl, uri, HttpMethod.Get);
+                    ActionStatus = true;
+                }
+                catch (Exception ex)
+                {
+                    message = ex.Message + (ex.InnerException != null ? Environment.NewLine + ex.InnerException.Message : "");
+                }
+            }
+
+            return new Tuple<bool, string, string>(ActionStatus, message, jsonResult);
+        }
+
+        public async Task<Tuple<bool, string, string>> GetAccessReviewInstances(GraphServiceClient graphclient, string accessToken, string graphUrl, string AccessReviewID)
+        {
+
+            bool ActionStatus = false;
+            string message = string.Empty, jsonResult = "";
+
+            if (graphclient == null)
+                return new Tuple<bool, string, string>(false, "Invalid input data", jsonResult);
+            else
+            {
+                try
+                {
+                    var uri = string.Format("/beta/accessReviews('{0}')/instances", AccessReviewID);
+                    jsonResult = await ExecuteMSGraphRequest<object>(accessToken, graphUrl, uri, HttpMethod.Get);
+                    ActionStatus = true;
+                }
+                catch (Exception ex)
+                {
+                    message = ex.Message + (ex.InnerException != null ? Environment.NewLine + ex.InnerException.Message : "");
+                }
+            }
+
+            return new Tuple<bool, string, string>(ActionStatus, message, jsonResult);
+        }
+
+        public async Task<Tuple<bool, string, string>> GetAccessReviewReviewers(GraphServiceClient graphclient, string accessToken, string graphUrl, string AccessReviewID)
+        {
+
+            bool ActionStatus = false;
+            string message = string.Empty, jsonResult = "";
+
+            if (graphclient == null)
+                return new Tuple<bool, string, string>(false, "Invalid input data", jsonResult);
+            else
+            {
+                try
+                {
+                    var uri = string.Format("/beta/accessReviews('{0}')/reviewers", AccessReviewID);
+                    jsonResult = await ExecuteMSGraphRequest<object>(accessToken, graphUrl, uri, HttpMethod.Get);
+                    ActionStatus = true;
+                }
+                catch (Exception ex)
+                {
+                    message = ex.Message + (ex.InnerException != null ? Environment.NewLine + ex.InnerException.Message : "");
+                }
+            }
+
+            return new Tuple<bool, string, string>(ActionStatus, message, jsonResult);
+        }
+
+        public async Task<Tuple<bool, string, string>> GetAccessReviewDecisions(GraphServiceClient graphclient, string accessToken, string graphUrl, string AccessReviewID)
+        {
+
+            bool ActionStatus = false;
+            string message = string.Empty, jsonResult = "";
+
+            if (graphclient == null)
+                return new Tuple<bool, string, string>(false, "Invalid input data", jsonResult);
+            else
+            {
+                try
+                {
+                    var uri = string.Format("/beta/accessReviews('{0}')/decisions", AccessReviewID);
+                    jsonResult = await ExecuteMSGraphRequest<object>(accessToken, graphUrl, uri, HttpMethod.Get);
+                    ActionStatus = true;
+                }
+                catch (Exception ex)
+                {
+                    message = ex.Message + (ex.InnerException != null ? Environment.NewLine + ex.InnerException.Message : "");
+                }
+            }
+
+            return new Tuple<bool, string, string>(ActionStatus, message, jsonResult);
+        }
+
+        public async Task<Tuple<bool, string, string>> GetAccessReviewDetails(GraphServiceClient graphclient, string accessToken, string graphUrl, string AccessReviewID)
+        {  
+
+            bool ActionStatus = false;
+            string message = string.Empty, jsonResult="";
+
+            if (graphclient == null)
+                return new Tuple<bool, string, string>(false, "Invalid input data", jsonResult);
+            else
+            {
+                try
+                {
+                    var uri = string.Format("/beta/accessReviews('{0}')", AccessReviewID);
+                    jsonResult = await ExecuteMSGraphRequest<object>(accessToken, graphUrl, uri, HttpMethod.Get);
+                    ActionStatus = true;
+                }
+                catch (Exception ex)
+                {
+                    message = ex.Message + (ex.InnerException != null ? Environment.NewLine + ex.InnerException.Message : "");
+                }
+            }
+
+            return new Tuple<bool, string, string>(ActionStatus, message, jsonResult);
+        }
+
+        public async Task<Tuple<bool, string, string>> ApplyAccessReviews(GraphServiceClient graphclient, string accessToken, string graphUrl, string AccessReviewID)
+        {
+
+            bool ActionStatus = false;
+            string message = string.Empty, jsonResult = "";
+
+            if (graphclient == null || string.IsNullOrEmpty(AccessReviewID) || string.IsNullOrEmpty(accessToken))
+                return new Tuple<bool, string, string>(false, "Invalid input data", jsonResult);
+            else
+            {
+                try
+                {
+                    var uri = string.Format("/beta/accessReviews('{0}')/ApplyDecisions()", AccessReviewID);
+                    jsonResult = await ExecuteMSGraphRequest<object>(accessToken, graphUrl, uri, HttpMethod.Post);
+                    ActionStatus = true;
+                }
+                catch (Exception ex)
+                {
+                    message = ex.Message + (ex.InnerException != null ? Environment.NewLine + ex.InnerException.Message : "");
+                }
+            }
+
+            return new Tuple<bool, string, string>(ActionStatus, message, jsonResult);
+        }
+
+        private async Task<string> ExecuteMSGraphRequest<T>(string accessToken, string graphUrl, string uri, HttpMethod method = null, Object body = null) where T : class
+        {
+            if (method == null) method = HttpMethod.Get;
+
+            //new Uri("https://graph.microsoft.com/beta/accessReviews('45baaefc-f6c5-4bad-b983-22ef0222f91d')");//
+            string response;            
+
+            Uri uUri =new Uri(graphUrl + uri);
+
+            using (var httpClient = new HttpClient { BaseAddress = uUri })
+            {
+                var request = new HttpRequestMessage(method, uri);
+                request.Headers.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+                if (body != null)
+                {
+                    request.Content = new StringContent(JsonConvert.SerializeObject(body), Encoding.UTF8, "application/json");
+                }
+                var responseMessage = await httpClient.SendAsync(request).ConfigureAwait(false);
+                responseMessage.EnsureSuccessStatusCode();
+                response = await responseMessage.Content.ReadAsStringAsync();
+            }
+
+            return response;
+        }
+
 
         public async Task<Tuple<bool, string, string, string, string>> RemoveApplicationRoleFromUser(ActiveDirectoryClient azureGraphclient, string accessToken, string AzureADGraphUrl, string Tenant,
             string AppName, string UserEmailAddress, string AppRoleName)
@@ -319,7 +496,8 @@ namespace AzureWebUIapp.Utils
 
                 try
                 {
-                    var _usersFiltered = azureGraphclient.Users.Where(a => a.Mail == UserEmailAddress).Expand(p => p.AppRoleAssignments).ExecuteAsync().Result;
+                    var _usersFiltered = azureGraphclient.Users.Where(a => a.Mail.Equals(UserEmailAddress, StringComparison.InvariantCultureIgnoreCase) ||
+                    a.UserPrincipalName.Equals(UserEmailAddress, StringComparison.InvariantCultureIgnoreCase)).Expand(p => p.AppRoleAssignments).ExecuteAsync().Result;
                     if (_usersFiltered != null)
                     {
                         userObjectID = Guid.Parse(_usersFiltered.CurrentPage.Select(a => a.ObjectId).SingleOrDefault().ToString());
@@ -371,7 +549,7 @@ namespace AzureWebUIapp.Utils
                 }
                 catch (Exception ex)
                 {
-                    message = ex.Message;
+                    message = ex.Message + (ex.InnerException != null ? Environment.NewLine + ex.InnerException.Message : "");
                 }
             }
 
@@ -383,6 +561,7 @@ namespace AzureWebUIapp.Utils
             var uri = string.Format("{0}/users/{1}/appRoleAssignments/{2}?api-version=1.5", Tenant, userId, roleObjectId);
             await ExecuteRequest<object>(accessToken, AzureADGraphUrl, Tenant, uri, HttpMethod.Delete);
         }
+
         private async Task<string> ExecuteRequest<T>(string accessToken, string AzureADGraphUrl, string Tenant, string uri, HttpMethod method = null, Object body = null) where T : class
         {
             if (method == null) method = HttpMethod.Get;
@@ -437,7 +616,8 @@ namespace AzureWebUIapp.Utils
                         if (extAttrib != null)
                         {
                             Microsoft.Azure.ActiveDirectory.GraphClient.User userInstance = (Microsoft.Azure.ActiveDirectory.GraphClient.User)
-                                    azureGraphclient.Users.Where(a => a.Mail == UserEmailAddress).ExecuteAsync().Result.CurrentPage.FirstOrDefault();
+                                    azureGraphclient.Users.Where(a => a.Mail.Equals(UserEmailAddress, StringComparison.InvariantCultureIgnoreCase) ||
+                                    a.UserPrincipalName.Equals(UserEmailAddress, StringComparison.InvariantCultureIgnoreCase)).ExecuteAsync().Result.CurrentPage.FirstOrDefault();
                             if (userInstance != null)
                             {
                                 userInstance.SetExtendedProperty(AppExtAttribName, ExtAttribValue);
@@ -464,7 +644,7 @@ namespace AzureWebUIapp.Utils
                 }
                 catch (Exception ex)
                 {
-                    message = ex.Message;
+                    message = ex.Message + (ex.InnerException != null ? Environment.NewLine + ex.InnerException.Message : "");
                 }
             }
 
@@ -478,7 +658,7 @@ namespace AzureWebUIapp.Utils
 
             try
             {
-                IGraphServiceUsersCollectionPage _usersFilteredId = await graphClient.Users.Request().Filter($"Mail eq '" + UserEmailAddress + "'").GetAsync();
+                IGraphServiceUsersCollectionPage _usersFilteredId = await graphClient.Users.Request().Filter($"Mail eq '" + UserEmailAddress + "' or UserPrincipalName eq '" + UserEmailAddress + "'").GetAsync();
                 returnUser = _usersFilteredId.FirstOrDefault();
 
                 ActionStatus = true;
@@ -486,13 +666,13 @@ namespace AzureWebUIapp.Utils
             }
             catch (Exception ex)
             {
-                message = ex.Message;
+                message = ex.Message + (ex.InnerException != null ? Environment.NewLine + ex.InnerException.Message : "");
             }
 
             return new Tuple<bool, string, Microsoft.Graph.User>(ActionStatus, message, returnUser);
         }
 
-        public async Task<Tuple<bool,string,List<Microsoft.Graph.User>>> GetGuestUsers(GraphServiceClient graphClient)
+        public async Task<Tuple<bool, string, List<Microsoft.Graph.User>>> GetGuestUsers(GraphServiceClient graphClient)
         {
             bool isOk = false;
             string message = "";
@@ -509,10 +689,10 @@ namespace AzureWebUIapp.Utils
             }
             catch (Exception ex)
             {
-                message = ex.Message;
+                message = ex.Message + (ex.InnerException != null ? Environment.NewLine + ex.InnerException.Message : "");
             }
 
-            return new Tuple<bool, string, List<Microsoft.Graph.User>>(isOk,message,users);
+            return new Tuple<bool, string, List<Microsoft.Graph.User>>(isOk, message, users);
 
         }
 
@@ -564,7 +744,7 @@ namespace AzureWebUIapp.Utils
                 }
                 catch (Exception ex)
                 {
-                    message = ex.Message;
+                    message = ex.Message + (ex.InnerException != null ? Environment.NewLine + ex.InnerException.Message : "");
                 }
             }
 
@@ -586,7 +766,8 @@ namespace AzureWebUIapp.Utils
                 try
                 {
                     Microsoft.Azure.ActiveDirectory.GraphClient.User userInstance = (Microsoft.Azure.ActiveDirectory.GraphClient.User)
-                            azureGraphclient.Users.Where(a => a.Mail == UserEmailAddress).ExecuteAsync().Result.CurrentPage.FirstOrDefault();
+                            azureGraphclient.Users.Where(a => a.Mail.Equals(UserEmailAddress, StringComparison.InvariantCultureIgnoreCase) ||
+                            a.UserPrincipalName.Equals(UserEmailAddress, StringComparison.InvariantCultureIgnoreCase)).ExecuteAsync().Result.CurrentPage.FirstOrDefault();
                     if (userInstance != null)
                     {
                         userObjectID = userInstance.ObjectId;
@@ -610,7 +791,7 @@ namespace AzureWebUIapp.Utils
                 }
                 catch (Exception ex)
                 {
-                    message = ex.Message;
+                    message = ex.Message + (ex.InnerException != null ? Environment.NewLine + ex.InnerException.Message : "");
                 }
             }
 

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Configuration;
 using System.Globalization;
-
+using System.Web;
 
 namespace WebAppGroupClaimsDotNet.Utils
 {
@@ -10,7 +10,7 @@ namespace WebAppGroupClaimsDotNet.Utils
         public static string ClientId { get; } = ConfigurationManager.AppSettings["ida:ClientId"];
         internal static string AppKey { get; } = ConfigurationManager.AppSettings["ida:AppKey"];
         internal static string Tenant { get; } = ConfigurationManager.AppSettings["ida:Tenant"];
-        internal static string Authority { get; } = String.Format(CultureInfo.InvariantCulture, ConfigurationManager.AppSettings["ida:AADInstance"] , Tenant);
+        internal static string Authority { get; } = String.Format(CultureInfo.InvariantCulture, ConfigurationManager.AppSettings["ida:AADInstance"], Tenant);
 
         internal static string AadInstance { get; } = ConfigurationManager.AppSettings["ida:AADInstance"];
         internal static string PostLogoutRedirectUri { get; } = ConfigurationManager.AppSettings["ida:PostLogoutRedirectUri"];
@@ -18,6 +18,23 @@ namespace WebAppGroupClaimsDotNet.Utils
         internal static string GraphApiVersion { get; } = ConfigurationManager.AppSettings["ida:GraphApiVersion"];
 
         internal static string AzureADGraphUrl { get; } = ConfigurationManager.AppSettings["ida:AzureADGraphUrl"];
+
         internal static string inviteRedirectURLBase { get; } = ConfigurationManager.AppSettings["ida:inviteRedirectURLBase"];
+
+        public static bool UseApplicationPermissions
+        {
+            get
+            {
+                if (HttpContext.Current.Session["InvocationMethod"] != null)
+                {
+                    if (HttpContext.Current.Session["InvocationMethod"].ToString() == "A")
+                        return true;
+                    else
+                        return false;
+                }
+                else
+                    return true;//by default
+            }
+        } 
     }
 }
