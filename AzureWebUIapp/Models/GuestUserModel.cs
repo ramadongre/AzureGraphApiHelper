@@ -3,9 +3,24 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace AzureWebUIapp.Models
 {
+    public class SetAPIAccessModel
+    {
+        public SetAPIAccessModel()
+        {
+            AccessModes = new List<SelectListItem>();
+        }
+
+        [Required]
+        [Display(Name = "Set Graph API Access Permissions")]
+        public string accessMode { get; set; }
+
+        public List<SelectListItem> AccessModes;
+    }
+
     public class GuestUserModel
     {
         [Display(Name = "Guest user name")]
@@ -57,5 +72,12 @@ namespace AzureWebUIapp.Models
 
         public string resultantMessage { get; set; }
         public bool status { get; set; }
+    }
+
+    public class AccessReviews
+    {
+        public bool status { get; set; }
+        public string resultantMessage { get; set; }
+        public List<Tuple<string, string, string, string>> lstResult = new List<Tuple<string, string, string, string>>();
     }
 }

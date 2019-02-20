@@ -15,6 +15,8 @@ namespace AzureWebUIapp.Models
 
         public List<Tuple<string, List<ResultsItem>>> tupAppRoles { get; set; }
 
+        public List<string> Groups;
+
         public bool isOk { get; set; }
         public string message { get; set; }
 
