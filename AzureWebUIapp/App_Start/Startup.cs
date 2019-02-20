@@ -28,7 +28,10 @@ namespace AzureWebUIapp.App_Start
             string aut = ConfigHelper.Authority;
 
             app.SetDefaultSignInAsAuthenticationType(CookieAuthenticationDefaults.AuthenticationType);
-            app.UseCookieAuthentication(new CookieAuthenticationOptions());            
+            app.UseCookieAuthentication(new CookieAuthenticationOptions()
+            {
+                CookieManager = new SystemWebChunkingCookieManager()
+            });
 
             app.UseOpenIdConnectAuthentication(
                 new OpenIdConnectAuthenticationOptions
