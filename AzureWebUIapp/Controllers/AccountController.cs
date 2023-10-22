@@ -12,7 +12,7 @@ using Owin;
 namespace AzureWebUIapp.Controllers
 {
     public class AccountController : Controller
-    {
+    { //test comment
         public void SignIn()
         {
             if (!Request.IsAuthenticated)
